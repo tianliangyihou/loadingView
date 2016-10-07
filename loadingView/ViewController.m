@@ -60,9 +60,8 @@
     
 }
 - (void)layerWithTag:(int)tag {
-
-    UILabel *label = [[UILabel alloc] init];
     
+    UILabel *label = [[UILabel alloc] init];
     label.text = @"知我者谓我心忧，不知我者谓我何求";
     label.frame = CGRectMake(0, 60 + (20 + 40) *tag , 375, 40);
     label.backgroundColor = [UIColor clearColor];
@@ -72,7 +71,7 @@
     // 如何验证，自定义Label,重写drawRect方法，看是否调用,发现不添加上去，就不会调用
     [self.view addSubview:label];
     
-    // 创建渐变层
+    // 创建渐变层 ---------
     CAGradientLayer *gradientLayer = [CAGradientLayer layer];
     
     gradientLayer.frame = label.frame;
