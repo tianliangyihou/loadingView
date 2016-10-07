@@ -15,6 +15,8 @@
 		6EB1119E1DA49ED200E88E01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EB1119C1DA49ED200E88E01 /* LaunchScreen.storyboard */; };
 		6EB111A91DA49ED200E88E01 /* loadingViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB111A81DA49ED200E88E01 /* loadingViewTests.m */; };
 		6EB111B41DA49ED200E88E01 /* loadingViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB111B31DA49ED200E88E01 /* loadingViewUITests.m */; };
+		6EB111C31DA49EE800E88E01 /* LLBLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB111C21DA49EE800E88E01 /* LLBLoadingView.m */; };
+		6EFB0BA11DA5FF15006C3A9D /* LLBColorTextLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EFB0BA01DA5FF15006C3A9D /* LLBColorTextLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		6EB111AF1DA49ED200E88E01 /* loadingViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = loadingViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EB111B31DA49ED200E88E01 /* loadingViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = loadingViewUITests.m; sourceTree = "<group>"; };
 		6EB111B51DA49ED200E88E01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EB111C11DA49EE800E88E01 /* LLBLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLBLoadingView.h; sourceTree = "<group>"; };
+		6EB111C21DA49EE800E88E01 /* LLBLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLBLoadingView.m; sourceTree = "<group>"; };
+		6EFB0B9F1DA5FF15006C3A9D /* LLBColorTextLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLBColorTextLabel.h; sourceTree = "<group>"; };
+		6EFB0BA01DA5FF15006C3A9D /* LLBColorTextLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLBColorTextLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,10 @@
 			children = (
 				6EB111911DA49ED200E88E01 /* AppDelegate.h */,
 				6EB111921DA49ED200E88E01 /* AppDelegate.m */,
+				6EB111C11DA49EE800E88E01 /* LLBLoadingView.h */,
+				6EB111C21DA49EE800E88E01 /* LLBLoadingView.m */,
+				6EFB0B9F1DA5FF15006C3A9D /* LLBColorTextLabel.h */,
+				6EFB0BA01DA5FF15006C3A9D /* LLBColorTextLabel.m */,
 				6EB111941DA49ED200E88E01 /* ViewController.h */,
 				6EB111951DA49ED200E88E01 /* ViewController.m */,
 				6EB111971DA49ED200E88E01 /* Main.storyboard */,
@@ -272,6 +282,8 @@
 			files = (
 				6EB111961DA49ED200E88E01 /* ViewController.m in Sources */,
 				6EB111931DA49ED200E88E01 /* AppDelegate.m in Sources */,
+				6EB111C31DA49EE800E88E01 /* LLBLoadingView.m in Sources */,
+				6EFB0BA11DA5FF15006C3A9D /* LLBColorTextLabel.m in Sources */,
 				6EB111901DA49ED200E88E01 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,6 +510,7 @@
 				6EB111BA1DA49ED200E88E01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6EB111BB1DA49ED200E88E01 /* Build configuration list for PBXNativeTarget "loadingViewTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +519,7 @@
 				6EB111BD1DA49ED200E88E01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6EB111BE1DA49ED200E88E01 /* Build configuration list for PBXNativeTarget "loadingViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +528,7 @@
 				6EB111C01DA49ED200E88E01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
