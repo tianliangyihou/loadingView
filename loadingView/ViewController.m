@@ -61,7 +61,6 @@
 }
 - (void)layerWithTag:(int)tag {
 
-
     UILabel *label = [[UILabel alloc] init];
     
     label.text = @"知我者谓我心忧，不知我者谓我何求";
